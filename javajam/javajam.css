@@ -1,4 +1,4 @@
-
+@import url();
 
 body { 
     background-color: #FCEBB6;
@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-attachment: fixed ;
     color: #221811;
-    font-family: Tahoma, Arial, sans-serif;
+    font-family: font-family: 'Oswald', sans-serif;
 }
 #wrapper {
     background-color: #FEFAEB;
