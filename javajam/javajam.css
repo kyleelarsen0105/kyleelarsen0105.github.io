@@ -2,7 +2,7 @@
 
 body { 
     background-color: #FCEBB6;
-    background-image: url(images/fadedroad50/jpg);
+    background-image: url(images/fadedroad50.jpg)
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed ;
@@ -27,7 +27,7 @@ header { background-color:  #D2B48C;
 }
 h1 { 
     font-size: 3em;
-    font-family: 'Bayon', sans-serif; 
+    font-family: 'Oswald', sans-serif;
 }
 h2 {
     color: #8c3826;
