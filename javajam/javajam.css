@@ -120,6 +120,10 @@ img {
     max-width:100%;
     height:auto;
 }
+.onethird {
+	float: left;
+	width: 33%;
+}
 #homehero {
     background-image: url(images/hero.jpg);
     background-repeat: no-repeat;
