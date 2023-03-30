@@ -11,6 +11,7 @@ body {
     font-family: 'Oswald', sans-serif;
     margin: 0;
 }
+
 #wrapper {
     background-color: #231814;
     padding: 0;
@@ -167,7 +168,7 @@ footer {
     }
     #homehero {
         background-image: url(images/hero.jpg) ;
-        height: 50hv;
+        height: 50vh;
     }
     #heromugs {
         background-image: url(images/heromugs.jpg) ;
