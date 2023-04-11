@@ -88,6 +88,26 @@ nav a:ul{
     list-style-type: none;
     padding-left: 0;
 }
+nav ul {
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 1.25em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border-bottom: 1px solid #FEF6C2;
+    /* padding: .5em 1em;
+    width: 100%; */
+}
+
+nav li a {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 1em;
+}
 main {
     background-color: #fef6c2;
     display:block;
@@ -138,6 +158,13 @@ img {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+#herocouch{
+    height: 300 px;
+    background-image: url(images/herocouch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+};
+
 
 #mobile {
     display: inline;
@@ -177,6 +204,20 @@ form {
 input,
 textarea {
 	margin-bottom: .5em;
+}
+.item{
+    background-color: #faf9f7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
+
+.item img {
+    float: right;
+}
+.current{
+text-transform: uppercase;
+background-color: #776655;
 }
 /*configure medium layout*/
 @media (min-width: 600px) {
