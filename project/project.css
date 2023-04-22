@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-
-
-body { background-color: #EAEAEA ;
-      color: #000033;
-      font-family: 'Roboto Mono', monospace;
+body { background-color: #FFFFFF;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
 }
-header { background-color: #90C7E3;
-        font-family: 'Roboto Mono', monospace;
+header { background-color: #000033;
+       color: #FFFFFF;
+       font-family: Georgia, serif; 
 }
 h1 { line-height: 200%; }
 nav { font-weight: bold;
-      background-color: #90C7E3; 
+    background-color: #90C7E3; 
 }
-h2 { color: #000033;
-    font-family: 'Roboto Mono', monospace;
+h2 { color: #3399CC;
+   font-family: Georgia, serif;
 }
 dt { color: #000033; 
-   font-weight: bold; 
+ font-weight: bold; 
 }
 .resort { color: #000033;
-          font-size: 1.2em;
+        font-size: 1.2em;
 }
 footer { font-size: .70em;
-         font-style: italic;
-		 text-align: center; 
+       font-style: italic;
+       text-align: center; 
 }
 #wrapper { width: 80%;
-          margin-left: auto;
-		  margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
 }
