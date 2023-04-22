@@ -2,10 +2,10 @@
 
 
 body { background-color: #EAEAEA ;
-      color: #000033(0, 65%, 88%, 0.772);
+      color: #(0, 65%, 88%, 0.772);
       font-family: 'Roboto Mono', monospace;
 }
-header { background-color: #000033;
+header { background-color: #90C7E3;
         font-family: 'Roboto Mono', monospace;
 }
 h1 { line-height: 200%; }
@@ -13,7 +13,7 @@ nav { font-weight: bold;
       background-color: #90C7E3; 
 }
 h2 { color: #000033;
-     font-family: Georgia, serif;
+    font-family: 'Roboto Mono', monospace;
 }
 dt { color: #000033; 
    font-weight: bold; 
