@@ -5,6 +5,12 @@ body { background-color: #FFFFFF;
     color: #666666;
     ;
 }
+#wrapper {
+    background-color: #90C7E3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 header { background-color: #000033;
        color: #FFFFFF;
        font-family: 'Roboto Mono', monospace;; 
