@@ -21,7 +21,7 @@ header {
 h1 { line-height: 200%; }
 
 h2 { 
-    color: #3399CC;
+    color: #000033;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
@@ -33,13 +33,13 @@ dt {
         font-size: 1.2em;
 }
 footer { 
-        background-color: #eaeaea;
+        background-color: #000033;
         font-size: .70em;
         font-style: italic;
         text-align: center; 
 }
 #wrapper {
-        background-color: #90C7E3;
+        background-color: #eaeaea;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
