@@ -7,7 +7,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        color: #FFFFFF;
+        color: #000033;
         font-family: 'Roboto Mono', monospace;
 
 }
@@ -82,7 +82,7 @@ img {
 	background-size: cover;
 }
 footer { 
-	background-color: #000033;
+	background-color: #FFFFFF;
 	font-size: .60em;
 	font-style: italic;
 	text-align: center;
