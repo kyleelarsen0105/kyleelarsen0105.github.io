@@ -18,22 +18,17 @@ header {
         text-align: center; 
 }
 
-h1 { line-height: 200%; }
+h1 { 
+    line-height: 200%; 
 
-nav { font-weight: bold;
-    background-color: #90C7E3; 
 }
+
 h2 { 
     color: #3399CC;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
-dt { 
-    color: #000033; 
-    font-weight: bold; 
-}
-.resort { color: #000033;
-        font-size: 1.2em;
+
 }
 footer { 
         background-color: #eaeaea;
