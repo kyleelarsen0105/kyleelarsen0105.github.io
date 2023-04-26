@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+* {
+	box-sizing: border-box;
+}
 
+/* Configure Small Layout */
 body { 
         background-color: #FFFFFF;
         background-image: url(images/mountain.jpeg);
@@ -25,10 +29,26 @@ header {
         background-color: #000033;
         color: #FFFFFF;
         text-align: center;
+        height: 128px;
+	    padding-left: 105px;
         padding-top: 5px;
         padding-bottom: 5px; 
 }
+header a {
+	text-decoration: none;
+}
 
+header a:link {
+	color: #231814;
+}
+
+header a:visited {
+	color: #231814;
+}
+
+header a:hover {
+	color: #FEF6C2;
+}
 h1 { 
     font-size: 3em;
     font-family: 'Roboto Mono', monospace;
