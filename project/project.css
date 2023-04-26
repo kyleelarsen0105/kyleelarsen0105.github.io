@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 body { 
-        background-color: #FFFFFF;
-        background-image: url(images/mountain.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        color: #000033;
-        font-family: 'Roboto Mono', monospace;
+    background-color: #FFFFFF;
+    background-image: url(images/mountain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000033;
+    font-family: 'Roboto Mono', monospace;
 
 }
 
 #wrapper {
-        background-color: #90C7E3;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        min-width: 900px;
-        max-width: 1280px;
-        box-shadow: 3px 3px 3px #eaeaea;
+    background-color: #90C7E3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #eaeaea;
 }
 header { 
-        background-color: #000033;
-        color: #FFFFFF;
-        text-align: center;
-        height: 128px;
-	    padding-left: 105px;
-        padding-top: 5px;
-        padding-bottom: 5px; 
+    background-color: #000033;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
 }
 h1 { 
     font-size: 3em;
@@ -65,50 +64,63 @@ main {
 		text-align: center;
 	}
 
-	h1 {
-		font-size: 3em;
-	}
-
-	nav ul {
-		flex-flow: row nowrap;
-		justify-content: space-around;
-	}
-
-	nav li {
-		border-bottom: none;
-	}
-
-	#homehero {
-		background-image: url(images/heromountain.jpeg);
-		height: 50vh;
-	}
-dt { 
-    color: #000033; 
-    font-weight: bold; 
-}
-.details {
-	padding-left: 20%;
-	padding-right: 20%;
-}
-
-img {
-	border-style: none;
-	max-width: 100%;
-	height: auto;
-}
-
-#homehero {
-	height: 300px;
-	background-image: url(images/heromountain.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-footer { 
-	background-color: #FFFFFF;
-	font-size: .60em;
-	font-style: italic;
-	text-align: center;
-	padding-bottom: 1em;
-	border-top: 2px solid #000033;
-}
+	h1 { 
+        font-size: 3em;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center; 
+    }
+    
+    h2 { 
+        color: #000033;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+    }
+    nav {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    nav a {
+        text-decoration: none;
+    }
+    
+    main {
+        display: block;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+    
+    dt { 
+        color: #000033; 
+        font-weight: bold; 
+    }
+    .details {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    img {
+        border-style: none;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #homehero {
+        height: 300px;
+        background-image: url(images/heromountain.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    footer { 
+        background-color: #FFFFFF;
+        font-size: .60em;
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 1em;
+        border-top: 2px solid #000033;
+    }
