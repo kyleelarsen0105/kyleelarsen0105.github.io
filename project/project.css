@@ -47,7 +47,7 @@ header a:visited {
 }
 
 header a:hover {
-	color: #FEF6C2;
+	color: #eaeaea;
 }
 h1 { 
     font-size: 3em;
@@ -79,7 +79,30 @@ main {
 	padding-bottom: 2em;
     text-align: center;
 }
+/* Configure Medium Layout */
+@media (min-width: 600px) {
+	header {
+		padding-left: 0;
+		text-align: center;
+	}
 
+	h1 {
+		font-size: 3em;
+	}
+
+	nav ul {
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+
+	nav li {
+		border-bottom: none;
+	}
+
+	#homehero {
+		background-image: url(images/heromountain.jpeg);
+		height: 50vh;
+	}
 dt { 
     color: #000033; 
     font-weight: bold; 
@@ -101,6 +124,18 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#flow {
+    display: flex;
+    flex-direction: row;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
 footer { 
 	background-color: #FFFFFF;
 	font-size: .60em;
@@ -110,3 +145,34 @@ footer {
 	border-top: 2px solid #000033;
 }
 
+/* Configure Large Layout */
+@media (min-width: 1024px) {
+	@supports (display: grid) {
+		header {
+			grid-area: header;
+		}
+
+		nav {
+			grid-area: nav;
+		}
+
+		main {
+			grid-area: main;
+		}
+
+		footer {
+			grid-area: footer;
+		}
+
+		#wrapper {
+			display: grid;
+			grid-template:
+				"header header"
+				"nav    main"
+				"footer footer"
+				/ 200px;
+		}
+
+		nav ul {
+			flex-direction: column;
+		}
