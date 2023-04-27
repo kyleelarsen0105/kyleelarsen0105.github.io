@@ -40,6 +40,18 @@ h2 {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+} 
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+} 
 nav {
 	font-weight: bold;
 	text-align: center;
