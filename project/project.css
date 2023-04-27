@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+
 body { 
     background-color: #FFFFFF;
     background-image: url(images/mountain.jpeg);
@@ -10,6 +11,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 
 }
+
 
 #wrapper {
     background-color: #90C7E3;
@@ -99,4 +101,35 @@ footer {
 	text-align: center;
 	padding-bottom: 1em;
 	border-top: 2px solid #000033;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px)
+{
+   body{
+    background-image: none;
+    color:#000033;
+    padding: 0;
+    margin: 0;
+   } 
+
+   wrapper {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+   }
+}
+
+@media  and (max-width: 600px) {
+    h1{
+        font: 1.25em
+    }
+}
+
+@media and (max-width: 1200px) {
+
+    img.feature{
+
+        width: 25%;
+    }
 }
