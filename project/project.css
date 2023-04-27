@@ -45,6 +45,11 @@ nav {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+nav li {
+    padding: 0.5em 1em;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
 
 nav a {
 	text-decoration: none;
@@ -57,6 +62,14 @@ main {
 	padding-bottom: 2em;
     text-align: center;
 }
+
+#mobile {
+    display: inline;
+  }
+  
+  #desktop {
+    display: none;
+  }
 
 dt { 
     color: #000033; 
