@@ -27,27 +27,27 @@ header {
     padding-top: 5px;
     padding-bottom: 5px; 
 }
-	h1 { 
-        font-size: 3em;
-        font-family: 'Roboto Mono', monospace;
-        text-align: center; 
+h1 { 
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center; 
     }
     
-    h2 { 
-        color: #000033;
-        font-family: 'Roboto Mono', monospace;
-        text-align: center;
+h2 { 
+    color: #000033;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
     }
-    nav {
-        font-weight: bold;
-        text-align: center;
-        font-size: 1.5em;
-        padding-top: 5px;
-        padding-bottom: 5px;
+nav {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     }
     
-    nav a {
-        text-decoration: none;
+nav a {
+    text-decoration: none;
     }
     
     main {
