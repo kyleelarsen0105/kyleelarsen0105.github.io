@@ -187,6 +187,9 @@ input[type="submit"] {
 		grid-column: 2 / 3;
 		width: 9em;
 	}
+    #siteSearch {
+		display: none;
+	}
 }
 
 @media and (max-width: 1200px) {
