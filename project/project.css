@@ -154,6 +154,18 @@ nav a {
     border-bottom: 1px solid #300;
     padding: .2em;
     font-size: 1.25em;
+}	
+form {
+    width: 40%;
+    display: grid;
+    grid-gap: 1em;
+    gap: 1em;
+    grid-template-columns: 6em 1fr;
+}
+
+input[type="submit"] {
+    grid-column: 2 / 3;
+    width: 9em;
 }
     .mobile {display: none;}
     .desktop {display: inline;}
@@ -163,6 +175,18 @@ nav a {
     h1{
         font: 1.25em
     }
+    form {
+		width: 40%;
+		display: grid;
+		grid-gap: 1em;
+		gap: 1em;
+		grid-template-columns: 6em 1fr;
+	}
+
+	input[type="submit"] {
+		grid-column: 2 / 3;
+		width: 9em;
+	}
 }
 
 @media and (max-width: 1200px) {
