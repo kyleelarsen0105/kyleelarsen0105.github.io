@@ -183,7 +183,7 @@ input[type="submit"] {
         margin: 0;
         box-shadow: none;
        } 
-       
+
     h1{
         font: 1.25em
     }
@@ -207,7 +207,6 @@ input[type="submit"] {
 @media and (max-width: 1200px) {
 
     img.feature{
-
         width: 25%;
     }
 }
