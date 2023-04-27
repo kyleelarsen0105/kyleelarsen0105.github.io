@@ -27,43 +27,6 @@ header {
     padding-top: 5px;
     padding-bottom: 5px; 
 }
-}
-h1 { 
-    font-size: 3em;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center; 
-}
-
-h2 { 
-    color: #000033;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-}
-nav {
-	font-weight: bold;
-	text-align: center;
-	font-size: 1.5em;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-nav a {
-	text-decoration: none;
-}
-
-main {
-	display: block;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-bottom: 2em;
-    text-align: center;
-}
-
-	header {
-		padding-left: 0;
-		text-align: center;
-	}
-
 	h1 { 
         font-size: 3em;
         font-family: 'Roboto Mono', monospace;
@@ -95,10 +58,6 @@ main {
         text-align: center;
     }
     
-    dt { 
-        color: #000033; 
-        font-weight: bold; 
-    }
     .details {
         padding-left: 20%;
         padding-right: 20%;
